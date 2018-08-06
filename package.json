@@ -1,5 +1,5 @@
 {
-  "name": "@jamesernator/babel-plugin-import-features-browser",
+  "name": "@jamesernator/babel-plugin-browser-import-features",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
