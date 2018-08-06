@@ -159,10 +159,6 @@ module.exports = function transformImportMeta({ types: t }) {
     }
 
     return {
-        inherits: [
-            require('@babel/plugin-syntax-dynamic-import'),
-            require('@babel/plugin-syntax-import-meta'),
-        ],
         visitor: {
             Program: dynamicImportBrowser,
         },
